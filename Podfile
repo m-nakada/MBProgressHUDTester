@@ -2,8 +2,8 @@
 # platform :ios, '6.0'
 
 target 'MBProgressHUDTester' do
-#  pod 'MBProgressHUD', :git => 'https://github.com/m-nakada/MBProgressHUD.git', :branch => 'add-button-0-9-1'
-  pod 'MBProgressHUD', :path => '~/git/m-nakada/MBProgressHUD'
+  pod 'MBProgressHUD', :git => 'https://github.com/m-nakada/MBProgressHUD.git', :branch => 'master'
+  # pod 'MBProgressHUD', :path => '~/git/m-nakada/MBProgressHUD'
 end
 
 target 'MBProgressHUDTesterTests' do
@@ -11,6 +11,6 @@ target 'MBProgressHUDTesterTests' do
 end
 
 target 'Share' do
-#  pod 'MBProgressHUD', :git => 'https://github.com/m-nakada/MBProgressHUD.git', :branch => 'add-button-0-9-1'
-  pod 'MBProgressHUD', :path => '~/git/m-nakada/MBProgressHUD'
+  pod 'MBProgressHUD', :git => 'https://github.com/m-nakada/MBProgressHUD.git', :branch => 'master'
+  # pod 'MBProgressHUD', :path => '~/git/m-nakada/MBProgressHUD'
 end

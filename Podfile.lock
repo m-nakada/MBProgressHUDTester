@@ -2,11 +2,17 @@ PODS:
   - MBProgressHUD (0.9.1)
 
 DEPENDENCIES:
-  - MBProgressHUD (from `~/git/m-nakada/MBProgressHUD`)
+  - MBProgressHUD (from `https://github.com/m-nakada/MBProgressHUD.git`, branch `master`)
 
 EXTERNAL SOURCES:
   MBProgressHUD:
-    :path: "~/git/m-nakada/MBProgressHUD"
+    :branch: master
+    :git: https://github.com/m-nakada/MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: c9d32f0d2dd9c04eac784ed8d215f3ff084a407c
+    :git: https://github.com/m-nakada/MBProgressHUD.git
 
 SPEC CHECKSUMS:
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
