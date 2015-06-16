@@ -1,0 +1,14 @@
+PODS:
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - MBProgressHUD (from `~/git/m-nakada/MBProgressHUD`)
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :path: "~/git/m-nakada/MBProgressHUD"
+
+SPEC CHECKSUMS:
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+
+COCOAPODS: 0.37.2
